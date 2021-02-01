@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: #aaf;
+        }
+    </style>
+</head>
+<body>
+    <h1>ToDo</h1>
+    <h2>註冊</h2>
+    <h3>{{ .msg }}</h3>
+    <br>
+    <form action="/signup" method="POST">
+        帳號: <input type="text" name="username"><br>
+        密碼: <input type="password" name="password" id=""><br><br>
+        <input type="submit" value="註冊">
+        <a href="/login">登入</a>
+    </form>
+</body>
+</html>
