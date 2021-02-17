@@ -9,6 +9,7 @@ my Golang practice and note
 
 ## Boring pratice
 1. [linked list(simple)](https://github.com/Yu-Zhuang/Golang/blob/main/boringPractice/20200202_linkedList.go)
+2. [Stack](https://github.com/Yu-Zhuang/Golang/blob/main/boringPractice/stack_20200217.go)
 
 ---
 ## Golang note
