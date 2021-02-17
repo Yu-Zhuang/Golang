@@ -25,9 +25,7 @@ func main() {
 
 	fmt.Println(`====================`)
 
-	for i, j := range s {
+	for range s {
 		fmt.Println(s.pop(), s)
-        i = i
-        j = j
 	}
 }
