@@ -9,7 +9,7 @@ my Golang practice and note
 	3. [透過todo webApp練習JWT登入驗證保持登入&由資料庫提取對應用戶資料](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/20200201_todoWebApp)
 	4. [go call API](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/sendREST_20200220)
 2. Boring pratice
-	1. [linked list(simple)](https://github.com/Yu-Zhuang/Golang/blob/main/boringPractice/20200202_linkedList.go)
+	1. [linked list(simple)](https://github.com/Yu-Zhuang/Golang/blob/main/boringPractice/linkedList_20200202.go)
 	2. [Stack](https://github.com/Yu-Zhuang/Golang/blob/main/boringPractice/stack_20200217.go)
 
 
