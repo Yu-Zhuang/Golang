@@ -7,7 +7,7 @@ my Golang practice and note
 	1. [前端傳檔案到後端儲存並瀏覽](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/20200129_webFileUpLoadPractice)
 	2. [登入系統用JWT和Cookie保持登入狀態](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/20200131_登入認證技術用JWT和Cookie)
 	3. [透過todo webApp練習JWT登入驗證保持登入&由資料庫提取對應用戶資料](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/20200201_todoWebApp)
-	4. [go call API](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/sendREST_20200220)
+	4. [Golang call API](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/sendREST_20200220)
 2. Boring pratice
 	1. [Basic skill var, operation, function](https://github.com/Yu-Zhuang/Golang/blob/main/boringPractice/Basic_varOperationFunc-20200220.go)
 	2. [Some data type](https://github.com/Yu-Zhuang/Golang/blob/main/boringPractice/dataType_20200203.go)
