@@ -3,13 +3,15 @@
 my Golang practice and note
 
 ## Content
-1. [前端傳檔案到後端儲存並瀏覽](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/20200129_webFileUpLoadPractice)
-2. [登入系統用JWT和Cookie保持登入狀態](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/20200131_登入認證技術用JWT和Cookie)
-3. [透過todo webApp練習JWT登入驗證保持登入&由資料庫提取對應用戶資料](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/20200201_todoWebApp)
+1. Web Development
+	1. [前端傳檔案到後端儲存並瀏覽](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/20200129_webFileUpLoadPractice)
+	2. [登入系統用JWT和Cookie保持登入狀態](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/20200131_登入認證技術用JWT和Cookie)
+	3. [透過todo webApp練習JWT登入驗證保持登入&由資料庫提取對應用戶資料](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/20200201_todoWebApp)
+	4. [go call API](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/sendREST_20200220)
+2. Boring pratice
+	1. [linked list(simple)](https://github.com/Yu-Zhuang/Golang/blob/main/boringPractice/20200202_linkedList.go)
+	2. [Stack](https://github.com/Yu-Zhuang/Golang/blob/main/boringPractice/stack_20200217.go)
 
-## Boring pratice
-1. [linked list(simple)](https://github.com/Yu-Zhuang/Golang/blob/main/boringPractice/20200202_linkedList.go)
-2. [Stack](https://github.com/Yu-Zhuang/Golang/blob/main/boringPractice/stack_20200217.go)
 
 ---
 ## Golang note
