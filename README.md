@@ -12,6 +12,9 @@ my Golang practice and note
 	1. [linked list(simple)](https://github.com/Yu-Zhuang/Golang/blob/main/boringPractice/linkedList_20200202.go)
 	2. [Stack](https://github.com/Yu-Zhuang/Golang/blob/main/boringPractice/stack_20200217.go)
 
+### Supplement
+1. [LeetCode in Golang](https://github.com/Yu-Zhuang/LeetCode/tree/master/Golang)
+2. [Web Skill implement in Golang](https://github.com/Yu-Zhuang/WebSkill)
 
 ---
 ## Golang note
@@ -138,4 +141,4 @@ func basicType() {
 
 ```
 ---
-Practice make perfect
+~ Practice make perfect ~
