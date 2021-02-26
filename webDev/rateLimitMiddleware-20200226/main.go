@@ -10,13 +10,17 @@ import (
 
 func main() {
 	// connect to Database
-	dao.ConnectDataBase()
+	err := dao.ConnectDataBase()
+	if err != nil {
+		panic(err)
+	}
 	defer dao.DB.Close()
 
 	// init router
 	r := gin.Default()
-
+	// set index page api, use the middleware
 	r.GET("/", controller.RateLimitMiddleware, controller.HomeHandler)
 
+	// start service
 	r.Run(":" + conf.ServicePort)
 }
