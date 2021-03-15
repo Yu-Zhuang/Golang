@@ -11,6 +11,7 @@ my Golang practice and note
 
 2. Skill
 	1. [unit testing](https://github.com/Yu-Zhuang/Golang/tree/main/Skill/UnitTest)
+	2. [gorutine, channel](https://github.com/Yu-Zhuang/Golang/tree/main/Skill/gorutineChannel)
 
 3. Data Structure
 	1. [linked list(simple)](https://github.com/Yu-Zhuang/Golang/blob/main/dataStructure/linkedList_20200202.go)
