@@ -3,15 +3,15 @@ package solution
 /*
 if N = 10000
 result show:
-FindPrimeInNumN spend time:  45.724425ms
-FindPrimeInNumN2 spend time:  2.645978885s
-FindPrimeInNumN3 spend time:  4.788341021s
+FindPrimeInNum spend time:  45.724425ms
+FindPrimeInNum2 spend time:  2.645978885s
+FindPrimeInNum3 spend time:  4.788341021s
 in my MacBook Air
 */
 
 import "math"
 
-func FindPrimeInNumN(num int) (ret []int) {
+func FindPrimeInNum(num int) (ret []int) {
 	if num < 2 {
 		return
 	}
@@ -33,7 +33,7 @@ func FindPrimeInNumN(num int) (ret []int) {
 	return
 }
 
-func FindPrimeInNumN2(num int) (ret []int) {
+func FindPrimeInNum2(num int) (ret []int) {
 	if num < 2 {
 		return ret
 	}
@@ -50,7 +50,7 @@ func FindPrimeInNumN2(num int) (ret []int) {
 	return
 }
 
-func FindPrimeInNumN3(num int) (ret []int) {
+func FindPrimeInNum3(num int) (ret []int) {
 	if num < 2 {
 		return ret
 	}
