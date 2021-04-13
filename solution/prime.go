@@ -17,7 +17,7 @@ func FindPrimeInNum(num int) (ret []int) {
 	}
 	sq := int(math.Sqrt(float64(num))) + 1
 	mp := []bool{}
-	for i := 0; i < num; i++ {
+	for i := 0; i <= num; i++ {
 		mp = append(mp, true)
 	}
 	for i := 2; i < sq; i++ {
@@ -25,7 +25,7 @@ func FindPrimeInNum(num int) (ret []int) {
 			mp[k*i] = false
 		}
 	}
-	for i := 2; i < num; i++ {
+	for i := 2; i <= num; i++ {
 		if mp[i] == true {
 			ret = append(ret, i)
 		}
