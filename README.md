@@ -3,7 +3,7 @@ my Golang practice and note
 
 ## Content
 0. Small Project
-	1. [Today Shohei Ohtani](https://github.com/Yu-Zhuang/Golang/tree/main/smallProject/ptt-crawler)
+	1. [Today Shohei Ohtani](https://github.com/Yu-Zhuang/Golang/tree/main/smallProject/shohei-ohtani-ptt-crawler)
 
 1. Web Development
 	1. [前端傳檔案到後端儲存並瀏覽](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/20200129_webFileUpLoadPractice)
