@@ -35,6 +35,11 @@ func main() {
 	r.POST("/api/getResult", func(c *gin.Context) {
 		var reqBody requestBody
 		c.Bind(&reqBody)
+		if msg, ok := isInputOK(reqBody); ok == false {
+			c.JSON(http.StatusBadRequest, gin.H{
+				"data": msg,
+			})
+		}
 		reqBody.Kanban = "/" + reqBody.Kanban
 		re, _ := regexp.Compile(`^(.+)/(.+)/(.+)$`)
 		reqBody.Date = re.ReplaceAllString(reqBody.Date, `$1-$2-$3`)
@@ -47,10 +52,18 @@ func main() {
 	r.Run()
 }
 
+func isInputOK(input requestBody) (msg string, ok bool) {
+	if len(input.Date) == 0 || len(input.Kanban) == 0 || len(input.Target) == 0 {
+		return "不能有空值", false
+	}
+	return "ok", true
+}
+
 func callAPI(base, kanban, date, target string) (ret string) {
 	req := base + kanban + location
 	soup.Headers = map[string]string{
 		"User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+		"cookie":     "over18=1",
 	}
 	flag := true
 	flag2 := false
