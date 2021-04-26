@@ -3,7 +3,7 @@ my Golang practice and note
 
 ## Content
 0. Small Project
-	1. [Today Shohei Ohtani](https://github.com/Yu-Zhuang/Golang/tree/main/smallProject/shohei-ohtani-ptt-crawler)
+	1. [Today Shohei Ohtani (PTT crawler)](https://github.com/Yu-Zhuang/Golang/tree/main/smallProject/shohei-ohtani-ptt-crawler)
 	2. [爬點PTT (PTT crawler)](https://github.com/Yu-Zhuang/ptt-crawler)
 	3. [GoKeep (記帳PWA-Web app)](https://github.com/Yu-Zhuang/bookkeeping)
 
