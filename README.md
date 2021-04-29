@@ -5,7 +5,7 @@ my Golang practice and note
 0. Small Project
 	1. [Today Shohei Ohtani (PTT crawler)](https://github.com/Yu-Zhuang/Golang/tree/main/smallProject/shohei-ohtani-ptt-crawler)
 	2. [爬點PTT (PTT crawler)](https://github.com/Yu-Zhuang/ptt-crawler)
-	3. [GoKeep (記帳PWA-Web app)](https://github.com/Yu-Zhuang/bookkeeping)
+	3. [GoKeep (記帳PWA-Web app)](https://github.com/Yu-Zhuang/bookkeeping-pwa-web-app)
 
 1. Web Development
 	1. [前端傳檔案到後端儲存並瀏覽](https://github.com/Yu-Zhuang/Golang/tree/main/webDev/20200129_webFileUpLoadPractice)
